@@ -1,0 +1,93 @@
+/* body {
+  font-family: Lobster;
+  text-align: center;
+  padding: 50px;
+} */
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff8f2;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  color: #4b3f39;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.invitation {
+  text-align: center;
+  padding: 2rem;
+  max-width: 500px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  margin: 0;
+  color: #a25c5c;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  margin: 0.5rem 0 2rem;
+  letter-spacing: 1px;
+}
+
+.details {
+  margin-bottom: 2rem;
+}
+
+.date,
+.location {
+  margin: 0.5rem 0;
+  font-weight: 500;
+}
+
+.divider {
+  font-size: 2rem;
+  color: #d8a7a7;
+  margin: 2rem 0;
+}
+
+.invitation-text {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+.rsvp-button {
+  display: inline-block;
+  background: #a25c5c;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+.rsvp-button:hover {
+  background: #884646;
+}
+
+.photo-container {
+  margin-bottom: 2rem;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.photo {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+  object-fit: cover;
+}
