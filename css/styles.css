@@ -7,14 +7,65 @@
 body {
   margin: 0;
   padding: 0;
-  background: #fff8f2;
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 300;
+  /* background: #fff8f2; */
+  /* background: #fff4ee; */
+  background: #fdfaf6;
+  font-family: 'Cinzel', 'Work Sans', sans-serif;
+  font-weight: 400;
   color: #4b3f39;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.image-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  /* allow wrapping on small screens */
+  justify-content: center;
+  /* center horizontally */
+  align-items: flex-start;
+  /* prevent vertical overlap */
+  gap: 20px;
+  /* spacing between images */
+}
+
+.main-image {
+  /* flex: 0 1 auto; */
+  /* opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 1s ease forwards; */
+}
+
+.main-image img {
+  /* This scales it to 200% of its container */
+  max-width: 100%;
+  height: auto;
+  display: block;
+  /* width: 400px; */
+  /* force consistent width */
+  /* opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 1s ease forwards; */
+}
+
+/* .main-image:nth-child(2) {
+  animation-delay: 0.4s;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+  }
+} */
+
+/* .old-body {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
+
 }
 
 .invitation {
@@ -90,4 +141,4 @@ h1 {
   display: block;
   border-radius: 12px;
   object-fit: cover;
-}
+} */
