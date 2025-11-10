@@ -1,6 +1,8 @@
 body {
   margin: 0;
   padding: 0;
+  padding-top: 16px;
+  padding-bottom: 16px;
   background: #fdfaf6;
   font-family: 'Cinzel', 'Work Sans', sans-serif;
   font-weight: 400;
@@ -20,7 +22,9 @@ body {
   align-items: center;
   gap: 16px;
   max-width: 100%;
-  padding: 16px;
+  /* padding: 16px; */
+  padding-left: 16px;
+  padding-right: 16px;
   box-sizing: border-box;
 }
 
